@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: CustomBloom
   m_EditorClassIdentifier: 
   m_Active: 1
-  settings:
-    Event: 550
-    shader: {fileID: 4800000, guid: 5209293343ddfcb45ba2e41fd7b7cfc6, type: 3}
+  Threshold: 1.03
+  Intensity: 2.51
+  Layer0: 0.23
+  Layer1: 0.64
+  Layer2: 0.82
+  Layer3: 1.36
+  shader: {fileID: 4800000, guid: a2cd86a03af28714a9dc4bfdf2c7be1d, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
